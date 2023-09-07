@@ -69,11 +69,3 @@ def main():
   game = GuessingGame(max_guesses, max_num)
 
   Game(game, max_guesses)
-
-if __name__ == "__main__":
-  while True:
-    try:
-      main()
-    except Exception as e:
-      print(f'An error has occurred!\n{e}\n\n')
-      continue
