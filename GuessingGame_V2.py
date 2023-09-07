@@ -18,7 +18,3 @@ def main_v2():
   game = GuessingGame(__mode[0], __mode[1])
   
   Game(game, __mode[0])
-
-if __name__ == "__main_v2__":
-  while True:
-      if main_v2() is False: continue
